@@ -1,3 +1,3 @@
 FROM ubuntu:16.04
 
-RUN sudo apt-get update && sudo apt-get install htop -y
+RUN apt-get update && apt-get install htop curl -y
